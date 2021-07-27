@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checker.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+          <ul class="steps">
+            <li class="is-active">Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+          </ul>
+          <form class="form-wrapper">
+            <fieldset class="section is-active">
+              <h3>Your Details</h3>
+              <input type="text" name="name" id="name" placeholder="Name of Medicine">
+              <input type="text" name="name" id="email" placeholder="Date">
+              <div class="button">Next</div>
+            </fieldset>
+            <fieldset class="section">
+              <h3>Account Type</h3>
+              <div class="row cf">
+                <div class="four col">
+                  <input type="radio" name="r1" id="r1" checked>
+                  <label for="r1">
+                    <h4>Pharmacy</h4>
+                  </label>
+                </div>
+                <div class="four col">
+                  <input type="radio" name="r1" id="r2"><label for="r2">
+                    <h4>Online</h4>
+                  </label>
+                </div>
+                <div class="four col">
+                  <input type="radio" name="r1" id="r3"><label for="r3">
+                    <h4>Others</h4>
+                  </label>
+                </div>
+              </div>
+              <div class="button">Next</div>
+            </fieldset>
+            <fieldset class="section">
+              <h3></h3>
+              <input type="password" name="password" id="password" placeholder="Name of manufacturer">
+              <input type="password" name="password2" id="password2" placeholder="Name of seller">
+              <input class="submit button" type="submit" value="Sign Up">
+            </fieldset>
+            <fieldset class="section">
+              <h3>Congrats!</h3>
+              <p>This medicine is genuine.</p>
+              <div class="button">Reset Form</div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+<script src="checker.js"></script>
+
+
+</html>
